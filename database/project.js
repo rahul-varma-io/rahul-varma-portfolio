@@ -19,7 +19,7 @@ const PROJECT = [{
     name : "rink.ml",
     desc : "",
     links : {
-        site : "http://rink.ml/"
+        site : "#"
     },
     img : "rink.png", 
     summary : "Web Application"
