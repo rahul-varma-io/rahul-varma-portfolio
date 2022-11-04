@@ -12,19 +12,18 @@ const Ryntax = {
     });
       return {newCommand: true };
   },
-  info : "<pre>Info:\n\t<span>name:\t\trahul varma</span>\n\t<span>email:\t\trv12345369@gmail.com</span>\n\t<span>phone no.:\t8070200016</span></pre>",
-  author : "<pre>Info:\n\t<span>author name:\trahul varma</span>\n\t<span>author email:\trv12345369@gmail.com</span>\n\t<span>phone no.:\t8070200016</span></pre>",
+  info : "<pre>Info:\n\t<span>name:\t\tRahul Varma</span>\n\t<span>email:\t\trv12345369@gmail.com</span>\n\t<span>phone no.:\t8070200016</span></pre>",
+  author : "<pre>Info:\n\t<span>author name:\tRahul Varma</span>\n\t<span>author email:\trv12345369@gmail.com</span>\n\t<span>phone no.:\t8070200016</span></pre>",
   exit : function($modal, $terminal){
       println($terminal, "exit...");
       closeModal($modal);
       // return {newCommand: true }
     },
-  hire : function($modal, $terminal){
-      println($terminal, "\n\tNot available.\n");
-      return {newCommand: true };
-    },
+  hire : "<pre>Info:\n\t<span>name:\t\tRahul Varma</span>\n\t<span>email:\t\trv12345369@gmail.com</span>\n\t<span>phone no.:\t8070200016</span></pre>",
+  ls : "<pre>\n\t\n\t<a href='#'>Resume.pdf</a>\n\t</pre>",
+  contact : "<pre>Info:\n\t<span>name:\t\tRahul Varma</span>\n\t<span>email:\t\trv12345369@gmail.com</span>\n\t<span>phone no.:\t8070200016</span></pre>",
   resume : function($modal, $terminal){
-     window.open("https://rahul-varma8070.github.io/Resume-24-May-2019.pdf", "_black");
+     window.open("https://ragasave.github.io/Resume.pdf", "_black");
      println($terminal, "\ndownloading...\n");
      return {newCommand: true };
 
